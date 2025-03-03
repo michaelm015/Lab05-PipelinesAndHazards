@@ -24,5 +24,5 @@ The table for the pipelined data path is different from the single cycle datapat
 
 # Section 3
 
-add $a1, $a0, $a0 <br/>
+add $a1, $a0, $a0 <br/> <br/>
 I chose this instruction because neither $a0 or $a1 are needed immediately after, so no hazards are introduced. $a1 also gets overwritten later in the addi instruction, so whatever is stored in $a0 has no impact on what the program outputs later. The inclusion of this "buffer" instruction does not eliminate the hazard because the add instruction is still dependent on $v0. However, this new instruction eliminates the stall caused by this hazard.
