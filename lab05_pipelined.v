@@ -4,12 +4,12 @@
  */
 //=========================================================================
 // Name & Email must be EXACTLY as in Gradescope roster!
-// Name: 
-// Email: 
+// Name: Michael Mihalovich
+// Email: mmiha004@ucr.edu
 // 
-// Assignment name: 
-// Lab section: 
-// TA: 
+// Assignment name: Lab 05 - Pipelines and Hazards
+// Lab section: 021
+// TA: Nurlan Nazaraliyev
 // 
 // I hereby certify that I have not received assistance on this assignment,
 // or used code, from ANY outside source other than the instruction team
